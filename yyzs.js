@@ -1,10 +1,10 @@
 /*
 by Primovist
 
-Surge:
+Quantumult X:
 
-[Script]
-http-response ^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?|pro\/isUserProAndNotExpired\?|pay\/checkIntroOfferPeriod\?)) requires-body=1,max-size=0,script-path=https://raw.githubusercontent.com/NobyDa/Script/master/Surge/JS/yyzs.js
+[rewrite_local]
+^https?:\/\/(i|newdrugs)\.dxy\.cn\/(snsapi\/username\/|app\/user\/(pro\/stat\?|init\?|pro\/isUserProAndNotExpired\?|pay\/checkIntroOfferPeriod\?)) url script-response-body https://raw.githubusercontent.com/DarwinHo/Script/master/Surge/JS/yyzs.js
 
 [MITM]
 hostname = newdrugs.dxy.cn
