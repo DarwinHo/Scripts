@@ -4,6 +4,7 @@
 let obj = JSON.parse($response.body);
 
 obj.result.isSVIP = true;
+obj.result.user_type = 2;
 obj.result.is_active = 1;
 obj.result.vipStartDate = 1610255024000;
 obj.result.vipEndDate = 2610255024000;
