@@ -10,7 +10,7 @@ obj.result.vipStartDate = "2021-01-10";
 obj.result.vipEndDate = "2041-01-10";
 obj.result.isVIP = true;
 obj.result.is_showEntrance = true;
-obj.result.isTeamUser = true;
+//obj.result.isTeamUser = true;
 obj._extendInfo.isVIP = true;
 obj._extendInfo.isSVIP = true;
 
