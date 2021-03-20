@@ -2,7 +2,7 @@
 by Primovist
 Quantumult X:
 [rewrite_local]
-^https?:\/\/slb\-user\.ksbao\.com\/(api\/newsuth\/|app\/user\/(pro\/stat\?|init\?|pro\/isUserProAndNotExpired\?|pay\/checkIntroOfferPeriod\?)) url script-response-body https://raw.githubusercontent.com/DarwinHo/Script/master/Surge/JS/yyzs.js
+^https?:\/\/slb\-user\.ksbao\.com\/(api\/newauth\/|app\/user\/(pro\/stat\?|init\?|pro\/isUserProAndNotExpired\?|pay\/checkIntroOfferPeriod\?)) url script-response-body https://raw.githubusercontent.com/DarwinHo/Script/master/Surge/JS/yyzs.js
 [MITM]
 hostname = newdrugs.dxy.cn
 */
