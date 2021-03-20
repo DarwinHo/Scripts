@@ -33,7 +33,7 @@ let body = $response.body;
 
 if (url.indexOf(path1) != -1){
 body = JSON.parse(body);
-body.data.isnewplans = 1;
+body.data.resultJson.isnewplans = 1;
 #body.items.expert = true;
 #body.items.expertStatus = 1;
 #body.items.professional = true;
