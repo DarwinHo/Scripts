@@ -17,12 +17,12 @@ const url = $request.url;
 let body = $response.header;
 
 if (url.indexOf(path1) != -1){
-body = JSON.parse(body);
+#body = JSON.parse(body);
 body.Access-Control-Allow-HttpOnly = true;
-body.items.expert = true;
-body.items.expertStatus = 1;
-body.items.professional = true;
-body = JSON.stringify(body);
+#body.items.expert = true;
+#body.items.expertStatus = 1;
+#body.items.professional = true;
+#body = JSON.stringify(body);
 }
 
 if (url.indexOf(path2) != -1){
