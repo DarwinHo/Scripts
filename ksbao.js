@@ -22,7 +22,7 @@ https://slb-exam.ksbao.com/api/newplan/doing
 hostname = newdrugs.dxy.cn
 */
 
-const path1 = "/api/newplan/doing";
+const path1 = "/api/newplan/";
 const path2 = "/app/user/pro/stat?";
 const path3 = "/app/user/init?";
 const path4 = "/app/user/pro/isUserProAndNotExpired?";
